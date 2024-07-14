@@ -14,20 +14,21 @@ public class Employee {
         this.name = name;
         this.salary = salary;
     }
-    //set
-    public void setId(String id){
-        this.id=id;
-    }
-    public void setName(String name){
-        this.name=name;
-    }
-    public void setSalary(int salary){
-        this.salary=salary();
-    }
+    //set مانحتاجها
+   //    public void setId(String id){
+//        this.id=id;
+//    }
+//    public void setName(String name){
+//        this.name=name;
+//    }
+//    public void setSalary(int salary){
+//        this.salary=salary();
+//    }
+//
+//    private int salary() {
+//        return salary;
+//    }
 
-    private int salary() {
-        return salary;
-    }
 
     //get
     public String getId(){
